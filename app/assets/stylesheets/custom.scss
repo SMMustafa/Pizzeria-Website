@@ -1,0 +1,120 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.background {
+padding-top: 120px;
+background-color: #dedede;
+}
+
+.center {
+text-align: center;
+}
+
+.center h1 {
+margin-bottom: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 15px;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.navbar-inverse .navbar-nav > li > a.hover {
+    color: yellow;
+}
+
+.title{
+    padding-top: 20px;
+    // padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 120px;
+    float: left;
+    color: #e46227;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
+    
+}
+
+#image {
+    float:left;
+    padding-right: 0px;
+}
+
+footer{
+    border-top: 2px solid grey;
+    color: red;
+    margin-top: 25px;
+}
+
+footer a {
+    color: white;
+    background-color: #ff9d70 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer a:hover{
+    color:yellow;
+    background-color: #e46227 ;
+    
+}
+
+footer small{
+    float: left;
+    
+}
+
+footer li{
+    float: left;
+    margin-left: 20px;
+}
+
+.bar {
+    background-color: #e46227;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 150px;
+    padding-left: 12%;
+    color: white;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+#image2 {
+    padding-right: 20px;
+}
+
+#button {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #ff9d70;
+
+}
+
+.pageTitle {
+    background-color:#ff9d70 ;
+    padding: 10px;
+}
+
+.textBox {
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.aboutImage {
+    //padding-left: 20px;
+}

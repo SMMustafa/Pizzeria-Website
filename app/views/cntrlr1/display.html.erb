@@ -1,0 +1,19 @@
+<div class="content">
+<h2>Displaying the final order</h2>
+    <ul class="list-group">
+        <% @m.each do |i| %>
+            <li class = "list-group-item"><%= i.topping %>:
+                <ul>
+                    <% i.orders.each do |j| %>
+                        <li class = "list-group-item"><%= j.quantity %></li>
+                        <br />
+                    <% end %>
+                </ul>
+            </li>
+        <br />
+        <br />
+        <% end %>
+    </ul>
+</div>
+
+<div id="button"><%= link_to "Back to order", controller: "orders", action: "index", class: "button" %></div>

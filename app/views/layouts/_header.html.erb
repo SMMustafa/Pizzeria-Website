@@ -1,0 +1,16 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= image_tag "attachment_71444173.png", alt: "pizza", height: "120", width: "120", id: "image" %>
+    <!--<h1 class="title">Homebodies Pizza, Co.</h1>-->
+    <h1 class="title">Homebodies Pizza, Co.</h1>
+    <nav>
+      <!--<h1 class="title">Homebodies Pizza, Co.</h1>-->
+      <ul class="nav navbar-nav navbar-right style">
+        <li class="item"><%= link_to "Home", controller: "say", action: "index" %></li>
+        <li class="item"><%= link_to "About Us", controller: "about_us", action: "aboutUs" %></li>
+        <li class="item"><%= link_to "Order Now", controller: "orders", action: "index" %></li>
+        <li class="item"><%= link_to "Admin", controller: "menus", action: "index" %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
